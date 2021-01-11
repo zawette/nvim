@@ -4,8 +4,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'joshdick/onedark.vim'	
 	" Better Syntax Support
 	Plug 'sheerun/vim-polyglot'
-	" File Explorer
-"	Plug 'scrooloose/NERDTree'
 	" auto pairs for '(' '[' '{'
 	Plug 'jiangmiao/auto-pairs' 
 	" Stable version of coc
@@ -15,5 +13,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'vim-airline/vim-airline-themes'	 
 	" fancy start screen
 	Plug 'mhinz/vim-startify'	
+	" Have the file system follow you around
+	Plug 'airblade/vim-rooter'
+	" fzf
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
 
 	call plug#end()
