@@ -13,5 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" status/tabline
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'	 
-	
+	" fancy start screen
+	Plug 'mhinz/vim-startify'	
+
 	call plug#end()
