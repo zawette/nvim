@@ -18,5 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
+	" ranger plugin 
+	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 	call plug#end()
