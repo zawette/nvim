@@ -20,5 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/fzf.vim'
 	" ranger plugin 
 	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+	" Show a diff using Vim its sign column.
+	Plug 'mhinz/vim-signify'
+	" vim git plugin
+	Plug 'tpope/vim-fugitive'
 
 	call plug#end()
