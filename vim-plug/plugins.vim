@@ -24,5 +24,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'mhinz/vim-signify'
 	" vim git plugin
 	Plug 'tpope/vim-fugitive'
+	" shows keybindings
+	Plug 'liuchengxu/vim-which-key'
+	" comments
+	Plug 'preservim/nerdcommenter'
 
 	call plug#end()
