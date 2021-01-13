@@ -27,6 +27,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" shows keybindings
 	Plug 'liuchengxu/vim-which-key'
 	" comments
-	Plug 'preservim/nerdcommenter'
+	Plug 'tpope/vim-commentary'
+	" highlighted yank
+	Plug 'machakann/vim-highlightedyank'
 
 	call plug#end()

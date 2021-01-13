@@ -1,3 +1,10 @@
+if exists('g:vscode')
+
+    " Simulate same TAB behavior in VSCode
+    nmap <Tab> :Tabnext<CR>
+    nmap <S-Tab> :Tabprev<CR>
+
+ else
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -38,3 +45,5 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+endif
