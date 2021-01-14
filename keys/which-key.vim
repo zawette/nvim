@@ -166,6 +166,15 @@ let g:which_key_map.s = {
       \ 'z' : [':FZF'                   , 'FZF'],
       \ }
 
+let g:which_key_map.S = {
+      \ 'name' : '+Session' ,
+      \ 'c' : [':SClose'          , 'Close Session']  ,
+      \ 'd' : [':SDelete'         , 'Delete Session'] ,
+      \ 'l' : [':SLoad'           , 'Load Session']     ,
+      \ 's' : [':Startify'        , 'Start Page']     ,
+      \ 'S' : [':SSave'           , 'Save Session']   ,
+      \ }
+
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
