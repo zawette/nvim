@@ -9,7 +9,7 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
-            \ '~/mnt/c/CODING',
+            \ '/mnt/c/CODING',
             \ ]
 
 " auto restart a session
