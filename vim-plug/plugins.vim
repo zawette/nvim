@@ -2,6 +2,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" one dark theme
 	Plug 'joshdick/onedark.vim'	
+	" icons dependency of barbar
+	Plug 'kyazdani42/nvim-web-devicons'
 	" Better Syntax Support
 	Plug 'sheerun/vim-polyglot'
 	" auto pairs for '(' '[' '{'
@@ -11,6 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" status/tabline
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'	 
+	" Terminal
+	Plug 'voldikss/vim-floaterm'
 	" fancy start screen
 	Plug 'mhinz/vim-startify'	
 	" Have the file system follow you around
@@ -30,5 +34,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-commentary'
 	" highlighted yank
 	Plug 'machakann/vim-highlightedyank'
+	" Snippets
+	Plug 'honza/vim-snippets'
+	Plug 'mattn/emmet-vim'
+	" Colorizer
+	Plug 'norcalli/nvim-colorizer.lua'
+	" Better tabline
+	Plug 'romgrk/barbar.nvim'
 
 	call plug#end()
