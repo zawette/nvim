@@ -2,6 +2,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" one dark theme
 	Plug 'joshdick/onedark.vim'	
+	" tokyonight theme
+	Plug 'ghifarit53/tokyonight-vim'
 	" icons dependency of barbar
 	Plug 'kyazdani42/nvim-web-devicons'
 	" Better Syntax Support

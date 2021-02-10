@@ -16,7 +16,7 @@ source $HOME/.config/nvim/vscode/settings.vim
 else
 
     " Themes
-source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/tokyonight.vim
 source $HOME/.config/nvim/themes/airline.vim
 
   " Plugin Configuration
